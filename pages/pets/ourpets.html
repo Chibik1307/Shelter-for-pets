@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width" , initial-scale=1.0">
+  <title>Our pets</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../../assets/icons/Doge.ico">
+  <link rel="stylesheet" href="./ourpets.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="inner-column header_wrap ">
+      <div class="navigation_shadow"></div>
+      <nav class="navigation">
+        <a class="logo" href="../../index.html">
+          <p class="logo-title">Cozy House</p>
+          <p class="logo-description">Shelter for pets in Boston</p>
+        </a>
+        <div class="menu-toggle">
+          <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="21" x2="30" y2="21" stroke="currentColor" stroke-width="2" />
+            <line y1="11" x2="30" y2="11" stroke="currentColor" stroke-width="2" />
+            <line y1="1" x2="30" y2="1" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </div>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="../../index.html">About the shelter</a>
+          </li>
+          <li class="menu-item">
+            <a class="active" href="#">Our pets</a>
+          </li>
+          <li class="menu-item">
+            <a href="../../index.html#help">Help the shelter</a>
+          </li>
+          <li class="menu-item">
+            <a href="#footer">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navigation_mobile">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="../../index.html">About the shelter</a>
+          </li>
+          <li class="menu-item">
+            <a class="active" href="#">Our pets</a>
+          </li>
+          <li class="menu-item">
+            <a href="../../index.html#help">Help the shelter</a>
+          </li>
+          <li class="menu-item">
+            <a href="#footer">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Our pets in shelter</h1>
+    <section class="our-pets">
+      <div class="inner-column our-pets_wrap">
+        <h2 class="our-pets_title">Our friends who<br>are looking for a house</h2>
+        <div class="our-pets_slider">
+          <div class="our-pets_list">
+          </div>
+          <div class="our-pets_pagination">
+            <span class="disable our-pets_begin pagination_button">To the first pages</span>
+            <span class="disable our-pets_prev pagination_button">Previous page</span>
+            <span class="our-pets_curr pagination_button">1</span>
+            <span class="enable our-pets_next pagination_button">Next page</span>
+            <span class="enable our-pets_end pagination_button">To the last page</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="inner-column footer_wrap">
+      <section class="footer_contacts">
+        <h2>For questions and suggestions</h2>
+        <a class="email" href="mailto:email@shelter.com">email@shelter.com</a>
+        <a class="tel" href="tel:+13 674 567 75 54">+13 674 567 75 54</a>
+      </section>
+      <section class="footer_locations">
+        <h2>We are waiting for your visit</h2>
+        <a class="marker" href="https://maps.google.com?saddr=Current+Location&daddr=42.359487, -71.054954">1 Central
+          Street, Boston
+          (entrance from the store)</a>
+        <a class="marker" href="https://maps.google.com?saddr=Current+Location&daddr=51.468548, -0.193680">18 South
+          Park, London</a>
+      </section>
+      <div class="footer_photo">
+        <img src="../../assets/images/footer-puppy.png" alt="Щенок облизывает экран">
+      </div>
+    </div>
+  </footer>
+  <section class="modal visually-hidden">
+    <div class="modal_shadow">
+    </div>
+    <div class="modal_window">
+      <div class="modal_photo">
+        <img src="../../assets/images/pets/pets-woody.png" alt="Щенок пятнистый стоя">
+      </div>
+      <div class="modal_content">
+        <h2 class="modal_content_name">Jennifer</h2>
+        <p class="modal_content_kind">Dog - Labrador</p>
+        <p class="modal_content_description">
+          Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl
+          really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if
+          she has all of her favorite toys.
+        </p>
+        <ul class="modal_content_list">
+          <li class="modal_content_item"><b>Age:</b>&ensp;2 months</li>
+          <li class="modal_content_item"><b>Inoculations:</b>&ensp;none</li>
+          <li class="modal_content_item"><b>Diseases:</b>&ensp;none</li>
+          <li class="modal_content_item"><b>Parasites:</b>&ensp;none</li>
+        </ul>
+      </div>
+      <span class="modal_close-button">Close</span>
+    </div>
+  </section>
+  <script src="../pets/script.js"></script>
+</body>
+
+</html>
